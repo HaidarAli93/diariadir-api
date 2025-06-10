@@ -5,13 +5,14 @@
       "username": "test",
       "email": "test@test.com",
       "password": "test",
-      "avatar": "https://example.com/avatars/john_doe.jpg"
+      "avatar": "https://example.com/avatars/test.jpg"
     }
   ],
   "books": [
     {
       "id": 1,
       "title": "Laskar Pelangi",
+      "author": "Andrea Hirata",
       "desc": "Novel karya Andrea Hirata tentang perjuangan anak-anak di Belitung untuk mendapatkan pendidikan di tengah keterbatasan.",
       "genre_id": 3,
       "image": "https://example.com/covers/laskar_pelangi.jpg"
@@ -19,6 +20,7 @@
     {
       "id": 2,
       "title": "Ayat-Ayat Cinta",
+      "author": "Habiburrahman El Shirazy",
       "desc": "Karya Habiburrahman El Shirazy yang mengisahkan tentang cinta dan perjuangan seorang pemuda di Mesir dengan latar belakang agama.",
       "genre_id": 3,
       "image": "https://example.com/covers/ayat_ayat_cinta.jpg"
@@ -26,6 +28,7 @@
     {
       "id": 3,
       "title": "Bumi Manusia",
+      "author": "Pramoedya Ananta Toer",
       "desc": "Novel pertama dari tetralogi 'Pulau Buru' karya Pramoedya Ananta Toer yang mengisahkan kehidupan seorang pemuda bernama Minke pada zaman kolonial.",
       "genre_id": 2,
       "image": "https://example.com/covers/bumi_manusia.jpg"
@@ -33,6 +36,7 @@
     {
       "id": 4,
       "title": "Perahu Kertas",
+      "author": "Dewi Lestari",
       "desc": "Karya Dee Lestari yang menceritakan kisah cinta dua anak muda yang saling berjuang untuk mengejar impian mereka.",
       "genre_id": 3,
       "image": "https://example.com/covers/perahu_kertas.jpg"
@@ -40,6 +44,7 @@
     {
       "id": 5,
       "title": "Sang Pemimpi",
+      "author": "Andrea Hirata",
       "desc": "Novel lanjutan dari 'Laskar Pelangi' karya Andrea Hirata, menceritakan kisah pemimpi muda yang ingin mengubah nasib.",
       "genre_id": 3,
       "image": "https://example.com/covers/sang_pemimpi.jpg"
@@ -47,6 +52,7 @@
     {
       "id": 6,
       "title": "Supernova",
+      "author": "Dewi Lestari",
       "desc": "Karya Dewi Lestari yang menggabungkan fiksi ilmiah, filsafat, dan cinta, menceritakan kisah tentang pencarian jati diri dan kehidupan yang lebih besar.",
       "genre_id": 4,
       "image": "https://example.com/covers/supernova.jpg"
@@ -54,6 +60,7 @@
     {
       "id": 7,
       "title": "Garis Waktu",
+      "author": "Fiersa Besari",
       "desc": "Novel karya Fiersa Besari yang menceritakan perjalanan hidup seorang pria dan pertemuan dengan berbagai pengalaman serta hubungan.",
       "genre_id": 3,
       "image": "https://example.com/covers/garis_waktu.jpg"
@@ -61,6 +68,7 @@
     {
       "id": 8,
       "title": "Hujan",
+      "author": "Tere Liye",
       "desc": "Karya Tere Liye yang mengisahkan tentang persahabatan, cinta, dan misteri yang mengungkapkan rahasia hidup yang tak terduga.",
       "genre_id": 3,
       "image": "https://example.com/covers/hujan.jpg"
@@ -68,6 +76,7 @@
     {
       "id": 9,
       "title": "Aroma Karsa",
+      "author": "Dewi Lestari",
       "desc": "Novel karya Dee Lestari yang menggabungkan unsur budaya, misteri, dan kisah seorang perempuan yang mengejar impian melalui dunia seni.",
       "genre_id": 5,
       "image": "https://example.com/covers/aroma_karsa.jpg"
@@ -75,6 +84,7 @@
     {
       "id": 10,
       "title": "Laut Bercerita",
+      "author": "Leila S. Chudori",
       "desc": "Karya Leila S. Chudori yang mengisahkan tentang masa-masa perjuangan dalam meraih kebebasan, di tengah situasi politik yang penuh konflik.",
       "genre_id": 2,
       "image": "https://example.com/covers/laut_bercerita.jpg"
@@ -134,18 +144,6 @@
       "rating": 3.0,
       "content": "Cerita yang menarik, namun kadang terasa terlalu panjang dan lambat.",
       "reviews_id": 2
-    }
-  ],
-  "favorites": [
-    {
-      "id": 1,
-      "user_id": 1
-    }
-  ],
-  "favorite_details": [
-    {
-      "id": 1,
-      "book_id": 1
     }
   ]
 }
